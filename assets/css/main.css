@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+::-moz-selection {
+  color: #fff;
+  background-color: #23c6ea;
+}
+::selection {
+  color: #fff;
+  background-color: #23c6ea;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  border-color: #fff;
+}
+
+a {
+  color: #22262A;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+a:hover {
+  color: #18b1d4;
+}
+
+.nav-link {
+  color: #22262A;
+  font-family: "Poppins", sans-serif;
+}
+.nav-link:hover {
+  color: #23c6ea;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  border: 0;
+}
+.card img {
+  border-radius: 0%;
+}
+.card .card-body {
+  padding-top: 25px;
+  padding-left: 0;
+  color: #22262A;
+}
+.card .card-body .card-title {
+  font-weight: 500;
+}
+.card .card-body .grey {
+  color: rgb(119, 119, 119);
+}
+.card .card-body span:first-child {
+  text-decoration: line-through;
+  color: rgb(107, 107, 107);
+}
+.card .card-body span:nth-child(2) {
+  color: #CF2929;
+}
+
+.update {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  z-index: 1000;
+  display: flex;
+}
+.update .ss {
+  align-self: center;
+  margin: auto;
+  transform-origin: center center;
+  border-color: #18b1d4;
+  border-left-color: transparent;
+}
+
+main nav .navbar-brand {
+  font-size: 27px;
+  font-weight: 500;
+  color: #22262A;
+  font-family: "Poppins", sans-serif;
+}
+main nav .end i:hover {
+  font-weight: bold;
+}
+main .hero {
+  min-height: calc(100vh - 82px);
+  background: url(../img/Background.svg) no-repeat;
+  background-size: cover;
+}
+main .hero .container {
+  min-height: 80vh;
+  position: relative;
+}
+main .hero .container .text {
+  position: absolute;
+  bottom: 10%;
+  right: 11%;
+  color: #22262A;
+}
+main .hero .container .text .t {
+  font-size: 22px;
+}
+main .hero .container .text h1 {
+  font-size: 60px;
+}
+
+.Ssearch {
+  width: 100%;
+  background-color: white;
+  height: 100vh;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 1s;
+}
+.Ssearch .sent {
+  margin-top: 50px;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.Ssearch .sent input {
+  display: inline-block;
+  width: 338px;
+  height: 50px;
+  padding-left: 15px;
+  border-style: solid;
+  border-right: transparent;
+  border-color: #23c6ea;
+}
+.Ssearch .sent input::-moz-placeholder {
+  color: #23c6ea;
+}
+.Ssearch .sent input:-ms-input-placeholder {
+  color: #23c6ea;
+}
+.Ssearch .sent input::placeholder {
+  color: #23c6ea;
+}
+.Ssearch .sent input:focus {
+  outline: none;
+  border: 2px solid #22262A;
+}
+.Ssearch .sent button {
+  background-color: #23c6ea;
+  color: white;
+  width: 100px;
+  height: 50px;
+  line-height: 47px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  border: 2px solid #23c6ea;
+  cursor: pointer;
+}
+.Ssearch .sent button:hover {
+  background-color: #22262A;
+  color: #fff;
+  border-color: #22262A;
+}
+.Ssearch .close .fa-regular {
+  z-index: 10000;
+  color: #23c6ea;
+  font-size: 45px;
+  margin: 15px;
+}
+
+.sear {
+  z-index: 9999;
+  opacity: 1;
+}
+
+.collection-1 .boxs2 .imgbox {
+  width: 107%;
+  height: 97%;
+}
+
+.collection-4 .boxxs2 {
+  position: relative;
+}
+.collection-4 .boxxs2 .img2 {
+  width: 88%;
+}
+.collection-4 .boxxs2 .img3 {
+  padding: 20px;
+  background-color: #fff;
+  width: 48%;
+  position: absolute;
+  bottom: -56%;
+  right: 0%;
+}
+.collection-4 .boxxs2 a {
+  position: absolute;
+  bottom: -45%;
+  left: 15%;
+  z-index: 20;
+  width: 200px;
+}
+
+footer .footup {
+  position: relative;
+}
+footer .footup .container .text {
+  position: absolute;
+  bottom: 20%;
+}
+footer .footup .container .text h3 {
+  font-size: 60px;
+}
+footer .footdown {
+  background-color: #F2F8FC;
+}
+footer .footdown .container {
+  padding-bottom: 60px;
+}
+footer .footdown .container p:first-of-type {
+  width: 87%;
+}
+footer .footdown .container .left a {
+  font-size: 13px;
+}
+footer .footdown .container .left .linkk a {
+  font-size: 12px;
+}
+footer .footdown .container .join {
+  padding-top: 28px;
+}
+footer .footdown .container .join input {
+  border: 0;
+  background-color: #fff;
+  width: 470px;
+  height: 55px;
+  padding: 15px;
+}
+footer .footdown .container .join input:focus {
+  outline: none;
+  border: 2px solid #22262A;
+}
+footer .footdown .container .join button {
+  height: 55px;
+  padding: 15px 25px;
+  border: 0;
+  background-color: #fff;
+  color: #22262A;
+}
+footer .footdown .foot {
+  background-color: #E7F5F8;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 1150px) {
+  main .hero {
+    height: 90vh;
+    background-image: linear-gradient(rgba(243, 237, 237, 0.353), rgba(140, 140, 140, 0.541)), url(../img/Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card {
+    width: 86%;
+    margin: auto;
+  }
+  footer .footdown .container .join input {
+    padding: 10px;
+    width: 400px;
+  }
+  footer .footdown .container .join button {
+    padding: 15px;
+  }
+  .collection-1 .container {
+    padding: 0 30px;
+  }
+  .collection-4 .container {
+    padding: 0 40px;
+  }
+  .collection-4 .container a {
+    position: absolute;
+    bottom: -45%;
+    left: 12%;
+  }
+  .collection-4 a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 765px) {
+  main nav .navbar-brand {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .collection-4 {
+    margin-bottom: 200px;
+  }
+  footer .footup .container .text {
+    bottom: 10%;
+  }
+  footer .footup .container .text h3 {
+    font-size: 35px;
+  }
+  footer .footup .container .text p {
+    font-size: 16px !important;
+  }
+  footer .footup .container .text a {
+    font-size: 15px !important;
+    padding: 10px !important;
+  }
+  footer .footdown .container .join input {
+    padding: 10px;
+    width: 280px;
+  }
+  footer .footdown .container .join button {
+    padding: 15px;
+  }
+}
+@media (max-width: 400px) {
+  main nav .navbar-brand {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  main nav .end {
+    display: none;
+  }
+  main .hero .container .text {
+    padding-left: 30px;
+  }
+  main .hero .container .text .t {
+    font-size: 15px;
+  }
+  main .hero .container .text h1 {
+    font-size: 40px;
+  }
+  main .hero .container .text button {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  footer .footup .container .text {
+    bottom: 10%;
+  }
+  footer .footup .container .text h3 {
+    font-size: 20px;
+  }
+  footer .footup .container .text p {
+    font-size: 12px !important;
+  }
+  footer .footup .container .text a {
+    font-size: 5px !important;
+    padding: 6px !important;
+  }
+  footer .footdown .container .join input {
+    padding: 10px;
+    width: 200px;
+  }
+  footer .footdown .container .join button {
+    padding: 15px;
+  }
+  .collection-4 a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 320px) {
+  main nav .navbar-brand {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  main nav .end {
+    display: none;
+  }
+  footer .footdown .container .join input {
+    padding: 10px;
+    width: 150px;
+  }
+  footer .footdown .container .join input::-moz-placeholder {
+    font-size: 13px;
+  }
+  footer .footdown .container .join input:-ms-input-placeholder {
+    font-size: 13px;
+  }
+  footer .footdown .container .join input::placeholder {
+    font-size: 13px;
+  }
+  footer .footdown .container .join button {
+    padding: 5px;
+  }
+}/*# sourceMappingURL=main.css.map */
